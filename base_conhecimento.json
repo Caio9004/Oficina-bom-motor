@@ -1,0 +1,153 @@
+{
+  "empresa": "Oficina Mecânica Bom Motor",
+  "perguntas": {
+    "ruido_motor": "O motor está fazendo ruído estranho?",
+    "perda_potencia": "O carro está com perda de potência (não acelera bem)?",
+    "superaquecimento": "O motor está superaquecendo?",
+    "luz_oleo_acesa": "A luz de óleo do painel está acesa?",
+    "dificuldade_ligar": "O carro está com dificuldade para ligar?",
+    "motor_engasga": "O motor engasga ou falha durante a condução?",
+    "bateria_fraca": "Você percebe que a bateria está fraca (carro custa a pegar)?",
+    "farol_fraco": "Os faróis estão fracos ou piscando?",
+    "painel_apaga": "O painel chega a apagar ou piscar enquanto dirige?",
+    "luz_bateria_acesa": "A luz de bateria do painel está acesa?",
+    "pedal_freio_fundo": "O pedal do freio está fundo (afunda demais)?",
+    "carro_puxa_lado": "O carro puxa para algum lado ao dirigir ou frear?",
+    "vibracao_ao_frear": "O volante ou o carro vibra ao frear?",
+    "luz_freio_acesa": "A luz de freio do painel está acesa?",
+    "barulho_em_buracos": "Há barulho ao passar em buracos ou lombadas?",
+    "carro_balanca_curva": "O carro balança muito nas curvas?",
+    "desgaste_irregular_pneu": "Os pneus estão com desgaste irregular?",
+    "direcao_pesada": "A direção está pesada?",
+    "ar_nao_gela": "O ar-condicionado não está gelando?",
+    "ar_nao_liga": "O ar-condicionado nem liga?",
+    "vibracao_no_volante": "O volante vibra em velocidade de estrada?",
+    "idade_veiculo": "Qual a idade do veículo, em anos?",
+    "quilometragem": "Qual a quilometragem atual do veículo?",
+    "ultima_revisao_km": "Há quantos km foi feita a última revisão?",
+    "fumaca_escapamento": "Qual a cor da fumaça do escapamento? (nenhuma/preta/branca/azul)",
+    "ruido_ao_frear": "Como é o ruído ao frear? (nenhum/agudo)"
+  },
+  "diagnosticos": {
+    "1": {
+      "setor": "Injeção Eletrônica",
+      "urgente": false,
+      "diagnostico": "Mistura ar-combustível irregular (fumaça preta indica excesso de combustível)."
+    },
+    "2": {
+      "setor": "Motor",
+      "urgente": false,
+      "diagnostico": "Possível queima da junta do cabeçote (fumaça branca + superaquecimento)."
+    },
+    "3": {
+      "setor": "Motor",
+      "urgente": false,
+      "diagnostico": "Consumo de óleo, possível desgaste dos anéis do motor (fumaça azulada)."
+    },
+    "4": {
+      "setor": "Mecânica Geral",
+      "urgente": true,
+      "diagnostico": "Baixa lubrificação do motor — risco de dano severo."
+    },
+    "5": {
+      "setor": "Elétrica/Motor",
+      "urgente": false,
+      "diagnostico": "Possível defeito no motor de arranque."
+    },
+    "6": {
+      "setor": "Motor",
+      "urgente": false,
+      "diagnostico": "Velas de ignição ou filtro de combustível vencidos."
+    },
+    "7": {
+      "setor": "Motor",
+      "urgente": false,
+      "diagnostico": "Possível problema no sistema de arrefecimento (radiador/bomba d'água)."
+    },
+    "8": {
+      "setor": "Elétrica",
+      "urgente": false,
+      "diagnostico": "Bateria fraca ou descarregada."
+    },
+    "9": {
+      "setor": "Elétrica",
+      "urgente": false,
+      "diagnostico": "Alternador com defeito (não está recarregando a bateria)."
+    },
+    "10": {
+      "setor": "Elétrica",
+      "urgente": false,
+      "diagnostico": "Falha no sistema de carga do veículo."
+    },
+    "11": {
+      "setor": "Elétrica",
+      "urgente": false,
+      "diagnostico": "Bateria no fim da vida útil — recomenda-se troca preventiva."
+    },
+    "12": {
+      "setor": "Elétrica",
+      "urgente": false,
+      "diagnostico": "Terminais da bateria oxidados ou mal conectados."
+    },
+    "13": {
+      "setor": "Freios",
+      "urgente": false,
+      "diagnostico": "Pastilhas de freio desgastadas."
+    },
+    "14": {
+      "setor": "Freios",
+      "urgente": true,
+      "diagnostico": "Possível vazamento no sistema hidráulico de freios."
+    },
+    "15": {
+      "setor": "Freios",
+      "urgente": false,
+      "diagnostico": "Disco de freio empenado."
+    },
+    "16": {
+      "setor": "Freios",
+      "urgente": false,
+      "diagnostico": "Nível de fluido de freio baixo ou sensor de desgaste acionado."
+    },
+    "17": {
+      "setor": "Freios",
+      "urgente": false,
+      "diagnostico": "Pastilha no limite de uso, ainda sem dano ao disco (preventivo)."
+    },
+    "18": {
+      "setor": "Suspensão",
+      "urgente": false,
+      "diagnostico": "Bucha ou amortecedor desgastado."
+    },
+    "19": {
+      "setor": "Suspensão",
+      "urgente": false,
+      "diagnostico": "Amortecedor comprometido."
+    },
+    "20": {
+      "setor": "Suspensão",
+      "urgente": false,
+      "diagnostico": "Problema de suspensão (não é caso de alinhamento)."
+    },
+    "21": {
+      "setor": "Suspensão/Pneus",
+      "urgente": false,
+      "diagnostico": "Possível problema na caixa de direção ou pressão dos pneus incorreta."
+    },
+    "22": {
+      "setor": "Alinhamento e Balanceamento",
+      "urgente": false,
+      "diagnostico": "Desalinhamento das rodas."
+    },
+    "23": {
+      "setor": "Alinhamento e Balanceamento",
+      "urgente": false,
+      "diagnostico": "Problema de alinhamento ou geometria da suspensão."
+    },
+    "24": {
+      "setor": "Ar-condicionado",
+      "urgente": false,
+      "diagnostico": "Possível falta de gás refrigerante no sistema de ar-condicionado."
+    }
+  }
+}
