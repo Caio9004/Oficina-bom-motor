@@ -3,6 +3,8 @@
 Sistema especialista de triagem de atendimento para oficina mecânica.
 Disciplina: Programação de Sistemas Especialistas.
 
+Repositório: https://github.com/Caio9004/oficina-bom-motor
+
 O sistema faz perguntas sobre o veículo (motor, elétrica, freios, suspensão, alinhamento e ar-condicionado),
 aplica 24 regras de diagnóstico (`if` explícitos) e indica o **setor da oficina**, a **urgência** e o
 **diagnóstico provável**, além de explicar o raciocínio (por que/como cada regra disparou).
@@ -28,7 +30,7 @@ Os dois arquivos precisam ficar **na mesma pasta**.
 
 ## Como executar
 ```bash
-git clone <URL-DO-REPOSITORIO>
+git clone https://github.com/Caio9004/oficina-bom-motor.git
 cd oficina-bom-motor
 python oficina_json.py      # no Windows pode ser: py oficina_json.py
 ```
