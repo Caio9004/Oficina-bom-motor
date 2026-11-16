@@ -10,8 +10,9 @@ aplica 24 regras de diagnóstico (`if` explícitos) e indica o **setor da oficin
 **diagnóstico provável**, além de explicar o raciocínio (por que/como cada regra disparou).
 
 ## Integrantes
-- Integrante 1 — _preencher nome_
-- Integrante 2 — _preencher nome_
+- Integrante 1 — Caio Augusto Costeira Costa
+- Integrante 2 — Myguel Polito de Carvalho
+- Integrante 3 - Ana Beatriz Da Silva Pinto
 
 ## Vídeo de demonstração
 _colar link do vídeo aqui_
