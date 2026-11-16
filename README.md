@@ -14,8 +14,7 @@ aplica 24 regras de diagnóstico (`if` explícitos) e indica o **setor da oficin
 - Integrante 2 — Myguel Polito de Carvalho
 - Integrante 3 - Ana Beatriz Da Silva Pinto
 
-## Vídeo de demonstração
-_colar link do vídeo aqui_
+
 
 ## Estrutura
 | Arquivo | Descrição |
@@ -25,9 +24,7 @@ _colar link do vídeo aqui_
 
 Os dois arquivos precisam ficar **na mesma pasta**.
 
-## Requisitos
-- Python 3.8 ou superior
-- Nenhuma biblioteca externa (usa apenas `json` e `os`)
+
 
 ## Como executar
 ```bash
